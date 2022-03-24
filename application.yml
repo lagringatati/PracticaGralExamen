@@ -1,0 +1,14 @@
+management:
+  endpoints:
+    web:
+      expasure:
+        include: '*'
+  endpoint:
+    healt:
+      enable: true
+      show-details: always
+    shutdown:
+      enable: true
+  info:
+    env:
+      enable: true
